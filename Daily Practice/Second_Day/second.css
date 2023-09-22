@@ -1,0 +1,6 @@
+#third{
+    border: 2px solid red;
+    box-sizing:border-box;
+    width: 250px;
+    padding: 50px;
+}
