@@ -1,0 +1,33 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* p
+{
+    background-color: beige;
+    width: 100px;
+    height: 100px;
+} 
+*/
+
+
+.main
+{
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-direction: row-reverse;
+}
+.sub
+{
+    width: 100px;
+    height: 100px;
+    margin: 3px;
+    border: 2px solid black;
+    background-color: red;
+    text-align: center;
+}
