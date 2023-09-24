@@ -10,10 +10,10 @@ input{
     padding: 15px;
     padding-left: 4px;
 }
-p{
+/* p{
     width: 100px;
     height: 100px;;
-}
+} */
 ul{
     /* padding: 8px; */
 }
@@ -52,8 +52,59 @@ input:checked{
     width: 100px;
     padding: 100px;
 }
-p:empty{
+/* p:empty{
     background-color: red;
+} */
+/* a:visited{
+    color: red;
+} */
+
+p:first-child{
+    color: red;
 }
+p:last-child{
+    color :blue;
+}
+p:nth-child(3){
+    color: rgb(99, 236, 61);
+}
+
+p:nth-of-type(odd){
+    color: #9a45ee;
+}
+/* p:not(.nn){
+    background-color: #9a45ee;
+} */
+p:only-child{
+    background-color: red;
+    color: black;
+}
+p::after{
+    content: "Rushikesh";
+}
+h1::before{
+    content: "Rushikesh : "
+}
+h1::first-letter{
+    color: red;
+    background-color: white;
+    text-decoration: underline 2px dotted;
+}
+
+p::first-line{
+    color: red;
+}
+::placeholder{
+    color: red;
+    visibility: hidden;
+}
+
+::selection{
+    color: blue;
+    background-color: red;
+    text-decoration: underline 2px solid blue;
+}
+
+
 
 
