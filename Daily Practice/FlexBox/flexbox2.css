@@ -9,16 +9,22 @@
     height: 300px;
     display: flex;
     flex-direction: row;
-    
+    flex-wrap: wrap;
+    gap: 7px;
     border: 2px solid green;
+    justify-content: center;
+    align-items: center;
+    /* flex-flow: column-reverse wrap; */
 }
 .child{
     width: 100px;
     height: 100px;
     border: 1px solid red;
-    
+    /* margin: 10px; */
 }
-.four{
-    /* flex-grow: 2; */
-    flex-shrink: 2;
+.parent :nth-child(2){
+    /* flex-grow: 4; */
+    /* flex-shrink: 2; */
+    flex-basis: 100px;
+    /* background-color: black; */
 }

@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.parent{
+    border: 2px solid red;
+    width: 200px;
+    height: 200px;
+}
+.child{
+ float: right;
+ border: 2px solid black;
+}
+img{
+    float:left;
+    width: 200px;
+    height: 200px;
+}
