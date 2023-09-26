@@ -5,14 +5,20 @@
 }
 .parent{
     margin: 15px;
-    width: 400px;
+    width: 600px;
     height: 300px;
     display: flex;
     flex-direction: row;
+    
     border: 2px solid green;
 }
 .child{
     width: 100px;
     height: 100px;
     border: 1px solid red;
+    
+}
+.four{
+    /* flex-grow: 2; */
+    flex-shrink: 2;
 }
