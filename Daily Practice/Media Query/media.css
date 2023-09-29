@@ -1,0 +1,55 @@
+*{
+    --color:red;
+    --fontsize:40px
+}
+
+.main{
+    background-color: antiquewhite;
+    font-size: var(--fontsize);
+    font-style: normal;
+    width: 100vw;
+    height: 100vh;
+}
+
+@media (max-width:1200px) {
+ .main{
+    background-color: black;
+    color: white;
+    font-size: 40px;
+ }
+}
+@media (max-width:100px) {
+    .main{
+       background-color: rgb(140, 9, 9);
+       color: white;
+       font-size: 35px;
+    }
+}
+@media (max-width:800px) {
+    .main{
+       background-color: rgb(15, 151, 182);
+       color: white;
+       font-size: 30px;
+    }
+}
+@media (max-width:600px) {
+    .main{
+       background-color: rgb(20, 11, 123);
+       color: white;
+       font-size: 25px;
+    }
+}   
+@media (max-width:500px) {
+    .main{
+       background-color: rgb(28, 149, 9);
+       color: white;
+       font-size: 20px;
+    }
+}
+@media (max-width:500px) {
+    .main{
+       background-color: rgb(217, 198, 24);
+       color: white;
+       font-size: 5px;
+    }
+}
